@@ -91,6 +91,10 @@ nav {
 }
 
 
+#agenda-button {
+    background-color: white;
+}
+
 /*Hero*/
 
 #hero {
@@ -323,4 +327,146 @@ footer a:hover {
 footer img{
     margin-top: 20px;
     margin-right: 20px;
+}
+
+
+/*DIBUJO*/
+
+#dibujo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dibujo h2 {
+    align-self: start;
+    padding-left: 4%;
+    font-weight: 700;
+    font-size: 70px;
+}
+#dibujo-dragndrop {
+    display: flex;
+    justify-content: center;
+}
+#canvas {
+    padding-left: 50px;
+}
+
+
+/*Agenda de objetivos*/
+#agenda {
+    text-align: center;
+    border: 2px solid #191919;
+    padding: 2%;
+    margin: 0 2%;
+}
+
+#agenda h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#agenda p {
+    font-size:28px;
+    color: dodgerblue;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+/*Tereas*/
+
+#tareitas {
+    margin: auto;
+    width: 75%;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+#tarea {
+    resize: none;
+}
+
+.form-label {
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+#mostrar-tareas {
+    background-color: rgba(228, 218, 218, 0.3);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2px;
+    padding-left: 1%;
+    width: 75%;
+}
+
+#mostrar-tareas p {
+    font-size: 14px;
+    color: #191919;
+    text-align: start;
+    padding: 0;
+    margin: 4px;
+}
+
+#titulo-pendientes {
+    margin-top: 24px;
+}
+
+#botones-form {
+    display: flex;
+    gap: 12px;
+}
+
+.boton-form {
+    width: 140px;
+    height: 30px;
+    margin-top: 12px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+.boton-form-borrar {
+    width: 140px;
+    height: 30px;
+    margin-top: 12px;
+    background-color:rgb(199, 52, 52);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+/*css de las tareas agregadas*/
+
+.titulo-tarea {
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.borrar-tarea {
+    background-color: rgb(108, 243, 108);
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+
+.mostrar-urgencia {
+    color: dodgerblue;
+    border-radius: 4px;
+}
+
+.mostrar-desc {
+    text-transform: capitalize;
+}
+
+
+/*SVg*/
+
+#svg-animacion {
+    margin-top:50px;
+    font-weight: 900;
+    font-size: 48px;
 }
